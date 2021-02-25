@@ -1,0 +1,236 @@
+body{
+  background-color: white;
+  background:no-repeat center center fixed;
+  background-repeat: no-repeat;
+  background-image: radial-gradient(circle, #eb0e39, pink,blue);
+  cursor: url(../img/too409.cur), auto;
+}
+
+.wrap {
+  margin-top:-1.8rem;
+  height: 900px;
+  padding:150px;
+}
+
+.wrap1{
+  padding:150px;
+}
+
+#navigation {
+  height:845px;
+  flex: none;
+  width: 326px;
+  background: black;
+  color: #eee;
+  font-size: 70px;
+  line-height: 90px;
+  text-align: center;
+}
+
+#content {
+  flex: 1;
+  height: 93.9%;
+}
+
+#content1 {
+  margin-top:-23.4rem;
+  flex: 1;
+  height: 169%;
+}
+
+.row {
+  display: flex;  
+}
+
+.row > *{
+  flex: 1;
+}
+
+.img0{
+  position:absolute;
+left:25.29%;
+  top:59%;
+}
+
+.img1{
+  animation-name: float;
+  animation-duration: 5s;
+  animation-delay:1.5s;
+  position:absolute;
+  left:76%;
+  top:49%;
+}
+
+.img5{
+  animation-name: float;
+  animation-duration: 5s;
+  animation-delay:2.5s;
+  position:absolute;
+  left:43%;
+  top:105%;
+
+}
+
+.img2{
+  animation-name: float;
+  animation-duration: 5s;
+  animation-delay:3.5s;
+  position:absolute;
+  left:75%;
+  top:166%;
+
+}
+
+.img3{
+  animation-name: float;
+  animation-duration: 5s;
+  animation-delay:4.5s;
+  position:absolute;
+  left:24%;
+  top:165%;
+}
+
+.img4{
+  animation-name: float;
+  animation-duration: 5s;
+  animation-delay:5.5s;
+  position:absolute;
+  left:43%;
+  top:218%;
+}
+
+
+.block1 {
+  font-family: 'Cute Font', cursive;
+  height: 420px;
+  color: #eee;
+  font-size: 30px;
+  line-height:22px;
+  background-color:#224abc;
+}
+
+p{
+  padding:30px;
+  margin-left:20px;
+  margin-right:20px;
+  color:white;
+  cursor: url(../img/too409.cur), auto;
+
+}
+
+h2{
+  margin-top:30px;
+  font-family: 'Padauk', sans-serif;
+  font-size:20px;
+  line-height:22px;
+  padding:50px;
+  cursor: url(../img/too409.cur), auto;
+}
+
+h1{
+  font-family: 'Cute Font', cursive;
+  animation-name: float;
+  animation-duration: 5s;
+  animation-delay:0.5s;
+  cursor: url(../img/too409.cur), auto;
+
+}
+
+.block2 {
+  font-family: 'Cute Font', cursive;
+  height: 420px;
+  color: #eee;
+  font-size: 30px;
+  line-height:22px;
+  background-color:#ff8022;
+}
+
+.block3 {
+  font-family: 'Cute Font', cursive;
+  height: 420px;
+  color: #eee;
+  font-size: 30px;
+  line-height:22px;
+background-color:#eb0e39;
+}
+
+.block4 {
+  font-family: 'Cute Font', cursive;
+  height: 420px;
+  color: #eee;
+  font-size: 30px;
+  line-height:22px;
+background-color:#ffd9be;
+s
+}
+
+.block5 {
+  font-family: 'Cute Font', cursive;
+  height: 420px;
+  color: #eee;
+  font-size: 30px;
+  line-height:22px;
+background-color:#224abc;
+}
+
+.block6 {
+  font-family: 'Cute Font', cursive;
+  height: 420px;
+  color: #eee;
+  font-size: 30px;
+  line-height:22px;
+background-color:#ff8022;
+}
+
+.block7 {
+  font-family: 'Cute Font', cursive;
+  height: 420px;
+  color: #eee;
+  font-size: 30px;
+  line-height:22px;
+background-color:black;
+}
+
+.block8 {
+  font-family: 'Cute Font', cursive;
+  height: 420px;
+  color: #eee;
+  font-size: 30px;
+  line-height:22px;
+background-color:#eb0e39;
+}
+
+.block9 {
+  font-family: 'Cute Font', cursive;
+  height: 420px;
+  color: #eee;
+  font-size: 30px;
+  line-height:22px;
+background-color:#ffd9be;
+}
+
+.block10 {
+  font-family: 'Cute Font', cursive;
+  height: 420px;
+  color: #eee;
+  font-size: 30px;
+  line-height:22px;
+background-color:#224abc;
+}
+
+@keyframes float {
+  0% {
+    transform: translatey(0px);
+  }
+  25% {
+    transform: translatey(-20px);
+  }
+  50% {
+    transform: translatey(0px);
+  }
+  75% {
+  transform: translatey(-20px);
+  }
+  100%{
+    transform: translatey(0px);
+  }
